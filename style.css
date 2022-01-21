@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Mono:ital@1&display=swap');
+
+:root{
+    /*Colors*/
+    --white: hsl(0, 0%, 100%);
+    --light-gray:hsl(212, 45%, 89%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+
+    /*Font Weights*/
+    --font-weight1: 400;
+    --font-weight2: 700;
+
+    /*Font Size*/
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background: var(--light-gray);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    width: 30%; 
+    height: auto;
+    border-radius: 1rem;
+}
+
+.qr-code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code img{
+    width: 80%;
+    border-radius: 1rem;
+    margin: 1.2rem;
+}
+
+.para1{
+    color: var(--dark-blue);
+    font-weight: var(--font-weight2);
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.para2{
+    color: var(--grayish-blue);
+    font-weight: var(--font-weight1);
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
